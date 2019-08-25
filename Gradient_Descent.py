@@ -11,8 +11,8 @@ def plot_points(X, y):
     plt.scatter([s[0][0] for s in admitted], [s[0][1] for s in admitted], s = 25, color = 'red', edgecolor = 'k')
 
 def display(m, b, color='g--'):
-    plt.xlim(-0.05,1.05)
-    plt.ylim(-0.05,1.05)
+    plt.xlim(0,3)
+    plt.ylim(0,3)
     x = np.arange(-10, 10, 0.1)
     plt.plot(x, m*x+b, color)
     
