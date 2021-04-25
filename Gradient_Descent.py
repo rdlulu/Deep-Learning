@@ -97,4 +97,7 @@ def train(features, targets, epochs, learnrate, graph_lines=False):
     plt.plot(errors)
     plt.show()
   
+def uselessFunc():
+    print('Do this just for fun')
+
 train(X, y, epochs, learnrate, True)
